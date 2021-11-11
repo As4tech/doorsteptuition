@@ -1,0 +1,45 @@
+*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			background-image: url(./images/2.jpg);
+		}
+
+		.main-nav nav ul{
+			list-style-type: none;
+		}
+        
+        .main-nav nav ul li{
+        	float: right;
+        	color: white;
+        	font-size: 18px;
+        	padding: 20px;
+        }
+
+        .masthead{
+        	padding-top: 20%;
+        	text-align: center;
+
+        }
+        form input[type=text]{
+             padding: 10px;
+             font-size: 17px;
+             border: 1px solid grey;
+            width: 300px;
+        }
+
+        .form-control-borderless {
+    border: none;
+        }
+
+    .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+          }
+
+         form .form-control{
+            width: 250px;
+          }
